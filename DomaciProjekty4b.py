@@ -23,3 +23,12 @@ for radek in range(1,7):
         print(6*"X ")
 
 #Domaci ukol c.14
+x=int(input("Zadej velikost ctverce: "))
+
+for i in range(0,x):
+    for j in range(0,x):
+        if (j==0 or j==x-1 or i==x-1 or i==0):
+            print("x", end=" ")
+        else:
+            print(" ", end=" ")
+    print("\n", end="")
